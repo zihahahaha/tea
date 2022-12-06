@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            background-color: black;
+        }
+
+        .a {
+            width: 100px;
+            height: 100px;
+            background-color: transparent;
+            box-shadow: 0 0 0px 10px white;
+            overflow: hidden;
+        }
+
+        .b {
+            width: 100px;
+            height: 100px;
+            background-color: gray;
+            box-shadow: 0 0 0px 15px gray;
+        }
+    </style>
+</head>
+
+<body>
+    <script>
+        let a = new Promise((resolve, reject) => {
+            setTimeout(() => {
+                resolve(10);
+            }, 100);
+        });
+        async function test() {
+            console.log(await a);
+            console.log('a');
+        }
+        test();
+    </script>
+</body>
+
+</html>

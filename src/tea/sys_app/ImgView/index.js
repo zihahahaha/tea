@@ -1,0 +1,1 @@
+export { default as ImgView } from "./ImgView.vue";

@@ -1,0 +1,1 @@
+export { default as ImgPicker } from "./ImgPicker.vue";

@@ -1,0 +1,26 @@
+{
+  "name": "tea",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build",
+    "debug:local": "set debug=local&& vue-cli-service serve",
+    "debug:remote": "set debug=remote&& vue-cli-service serve"
+  },
+  "dependencies": {
+    "core-js": "^3.8.3",
+    "requirejs": "^2.3.6",
+    "vue": "^3.2.13"
+  },
+  "devDependencies": {
+    "@vue/cli-plugin-babel": "~5.0.0",
+    "@vue/cli-service": "~5.0.0"
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "not dead",
+    "not ie 11"
+  ]
+}
